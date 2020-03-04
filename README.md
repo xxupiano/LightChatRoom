@@ -37,3 +37,4 @@ A light chat room website
 * chatromm.jsp: listuser.jsp(the left user list), talk.jsp(the dialog space on the bottom), showmsg.jsp(show chatting records)
 * logout.jsp: Log out and eliminate user information from DB
 
+![FlowChart](Flow%20Chart.png)
