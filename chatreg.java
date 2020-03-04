@@ -1,6 +1,5 @@
 package chatroom;
 
-//ÓÃ»§×¢²áÓÃµ½µÄbeanÎÄ¼þ
 import java.sql.*;
 public class chatreg {
 	static String sDBDriver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
