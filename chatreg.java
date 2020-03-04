@@ -1,6 +1,6 @@
 package chatroom;
 
-//用户注册用到的bean文件
+//脫脙禄搂脳垄虏谩脫脙碌陆碌脛bean脦脛录镁
 import java.sql.*;
 public class chatreg {
 	static String sDBDriver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
@@ -13,7 +13,7 @@ public class chatreg {
 		try {
 			Class.forName(sDBDriver);
 			//conn = DriverManager.getConnection(sConnStr);
-			conn = DriverManager.getConnection(sConnStr, "root", "xblam316");
+			conn = DriverManager.getConnection(sConnStr, "root", "");
 			stmt = conn.createStatement();
 		} catch(java.lang.ClassNotFoundException e) {
 			System.err.println("chatreg(): " + e.getMessage());
@@ -27,7 +27,7 @@ public class chatreg {
 		try {
 			if(conn==null) {
 				//conn = DriverManager.getConnection(sConnStr);
-				conn = DriverManager.getConnection(sConnStr, "root", "xblam316");
+				conn = DriverManager.getConnection(sConnStr, "root", "");
 				stmt = conn.createStatement();
 			}
 			rs = stmt.executeQuery(sql);
@@ -42,7 +42,7 @@ public class chatreg {
 		try {
 			if(conn==null) {
 				//conn = DriverManager.getConnection(sConnStr);
-				conn = DriverManager.getConnection(sConnStr, "root", "xblam316");
+				conn = DriverManager.getConnection(sConnStr, "root", "");
 				stmt = conn.createStatement();
 			}
 			stmt.executeUpdate(sql);
